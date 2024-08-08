@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Files Index</title>
+    <style>
+        body {
+            font-family: 'Consolas', 'Monaco', 'Lucida Console', monospace;
+            background-color: #1e1e1e;
+            /* Very dark background similar to the image */
+            color: #dcdcdc;
+            /* Light grey text similar to the image */
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        a {
+            color: #8a8a8a;
+            /* Dim link color for a subtle appearance */
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            list-style: none;
+            /* No default bullets */
+            padding: 0;
+        }
+
+        ul li:before {
+            content: "• ";
+            /* Custom bullet */
+            color: #8a57f0;
+            /* Purple color similar to the image */
+            font-size: larger;
+            /* Slightly larger bullet */
+        }
+
+        li {
+            margin: 10px 0;
+            padding-left: 1em;
+            /* Align with the custom bullet */
+        }
+
+        h1,
+        h2 {
+            color: #8a57f0;
+            /* Purple color specified by the user */
+            position: relative;
+        }
+
+        h1:before,
+        h2:before {
+            color: #8a8a8a;
+            /* Dim link color */
+            position: absolute;
+            left: -40px;
+        }
+
+        h1:before {
+            content: "#";
+        }
+
+        h2:before {
+            content: "##";
+        }
+
+        .citation {
+            border-left: 3px solid #8a57f0;
+            padding-left: 10px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Personal Website of Marek Tobiáš</h1>
+
+    <h2>Dashboard</h2>
+    <p class="citation">Current status: ... </p>
+
+    <h2>Projects</h2>
+    <ul>
+        <li><a href="tobias_report.html">Statistics</a></li>
+    </ul>
+    <h2>Notes</h2>
+    <ul>
+        <li> ... </li>
+    </ul>
+    <h2>Interests</h2>
+    <ul>
+        <li> ... </li>
+    </ul>
+
+    <footer>
+        <h2>Contact</h2>
+        <ul>
+            <li> ... </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
